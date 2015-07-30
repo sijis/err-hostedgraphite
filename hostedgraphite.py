@@ -45,7 +45,7 @@ class HostedGraphite(BotPlugin):
         return incidents
 
     @botcmd(split_args_with=' ')
-    def status(self, msg, args):
+    def hostedgraphite_status(self, msg, args):
         '''
         This returns the latest status from their status page
         options:
